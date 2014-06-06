@@ -54,7 +54,7 @@
 
         <nav>
             <a href="{{ site.fishworks.url }}">{{ site.fishworks.company }}</a> &middot;
-            <a href="/">Blog</a> &middot;
+            {% if site.fishworks.blog_link %}<a href="{{ site.fishworks.blog_link }}">Blog</a> &middot; {% endif %}
             {% if site.fishworks.product_link %}<a href="{{ site.fishworks.product_link }}">Products</a> &middot; {% endif %}
             {% if site.fishworks.about_link %}<a href="{{ site.fishworks.about_link }}">About</a>{% endif %}
         </nav>
