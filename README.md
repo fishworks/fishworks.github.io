@@ -3,7 +3,11 @@ fishworks.io
 
 This project is the source code for our site, http://fishworks.io.
 
-# Testing Locally
+## Testing Locally
 
     $ bundle install
     $ jekyll serve
+
+## Deploying to GitHub
+
+    $ rake publish
