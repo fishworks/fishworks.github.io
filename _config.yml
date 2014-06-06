@@ -9,11 +9,9 @@ fishworks:
   company:      Fishworks Development and Consulting
   url:          /
   contact_link: mailto:info@fishworks.io
-  about_link:   /about
-  blog_link:    /blog
+  blog_link:    /
 
   # Product Information
-  product_link: /products
   tagline:      "Need Deis in your life? We can help!"
 
  # Analytics
